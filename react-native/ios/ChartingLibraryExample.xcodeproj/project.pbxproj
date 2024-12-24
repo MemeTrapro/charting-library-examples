@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,75 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6EDD0DE32D17C7F90085BD3C /* cs-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA52D17C7F90085BD3C /* cs-tv-chart.132c7060.html */; };
+		6EDD0DE92D17C7F90085BD3C /* ro-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD12D17C7F90085BD3C /* ro-tv-chart.132c7060.html */; };
+		6EDD0DF02D17C7F90085BD3C /* no-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCA2D17C7F90085BD3C /* no-tv-chart.132c7060.html */; };
+		6EDD0DF22D17C7F90085BD3C /* no-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCB2D17C7F90085BD3C /* no-tv-chart.e2a841ff.html */; };
+		6EDD0DF42D17C7F90085BD3C /* zh-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DE12D17C7F90085BD3C /* zh-tv-chart.132c7060.html */; };
+		6EDD0DF82D17C7F90085BD3C /* de-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DAD2D17C7F90085BD3C /* de-tv-chart.e2a841ff.html */; };
+		6EDD0DFA2D17C7F90085BD3C /* ar-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0CB62D17C7F90085BD3C /* ar-tv-chart.e2a841ff.html */; };
+		6EDD0DFB2D17C7F90085BD3C /* charting_library.esm.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA32D17C7F90085BD3C /* charting_library.esm.js */; };
+		6EDD0E112D17C7F90085BD3C /* he_IL-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBB2D17C7F90085BD3C /* he_IL-tv-chart.e2a841ff.html */; };
+		6EDD0E1E2D17C7F90085BD3C /* zh-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DE22D17C7F90085BD3C /* zh-tv-chart.e2a841ff.html */; };
+		6EDD0E202D17C7F90085BD3C /* ru-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD32D17C7F90085BD3C /* ru-tv-chart.132c7060.html */; };
+		6EDD0E212D17C7F90085BD3C /* vi-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDD2D17C7F90085BD3C /* vi-tv-chart.132c7060.html */; };
+		6EDD0E222D17C7F90085BD3C /* el-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DAF2D17C7F90085BD3C /* el-tv-chart.e2a841ff.html */; };
+		6EDD0E292D17C7F90085BD3C /* ms_MY-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC72D17C7F90085BD3C /* ms_MY-tv-chart.e2a841ff.html */; };
+		6EDD0E2A2D17C7F90085BD3C /* ja-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC22D17C7F90085BD3C /* ja-tv-chart.132c7060.html */; };
+		6EDD0E2E2D17C7F90085BD3C /* id_ID-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBF2D17C7F90085BD3C /* id_ID-tv-chart.e2a841ff.html */; };
+		6EDD0E302D17C7F90085BD3C /* et_EE-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB42D17C7F90085BD3C /* et_EE-tv-chart.132c7060.html */; };
+		6EDD0E322D17C7F90085BD3C /* fa-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB62D17C7F90085BD3C /* fa-tv-chart.132c7060.html */; };
+		6EDD0E352D17C7F90085BD3C /* sv-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD72D17C7F90085BD3C /* sv-tv-chart.132c7060.html */; };
+		6EDD0E382D17C7F90085BD3C /* pt-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD02D17C7F90085BD3C /* pt-tv-chart.e2a841ff.html */; };
+		6EDD0E3D2D17C7F90085BD3C /* pt-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCF2D17C7F90085BD3C /* pt-tv-chart.132c7060.html */; };
+		6EDD0E4D2D17C7F90085BD3C /* cs-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA62D17C7F90085BD3C /* cs-tv-chart.e2a841ff.html */; };
+		6EDD0E512D17C7F90085BD3C /* th-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDA2D17C7F90085BD3C /* th-tv-chart.e2a841ff.html */; };
+		6EDD0E522D17C7F90085BD3C /* ru-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD42D17C7F90085BD3C /* ru-tv-chart.e2a841ff.html */; };
+		6EDD0E582D17C7F90085BD3C /* nl_NL-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC82D17C7F90085BD3C /* nl_NL-tv-chart.132c7060.html */; };
+		6EDD0E5B2D17C7F90085BD3C /* sv-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD82D17C7F90085BD3C /* sv-tv-chart.e2a841ff.html */; };
+		6EDD0E5C2D17C7F90085BD3C /* hu_HU-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBC2D17C7F90085BD3C /* hu_HU-tv-chart.132c7060.html */; };
+		6EDD0E5F2D17C7F90085BD3C /* vi-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDE2D17C7F90085BD3C /* vi-tv-chart.e2a841ff.html */; };
+		6EDD0E602D17C7F90085BD3C /* ko-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC52D17C7F90085BD3C /* ko-tv-chart.e2a841ff.html */; };
+		6EDD0E622D17C7F90085BD3C /* it-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC02D17C7F90085BD3C /* it-tv-chart.132c7060.html */; };
+		6EDD0E692D17C7F90085BD3C /* zh_TW-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDF2D17C7F90085BD3C /* zh_TW-tv-chart.132c7060.html */; };
+		6EDD0E6A2D17C7F90085BD3C /* de-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DAC2D17C7F90085BD3C /* de-tv-chart.132c7060.html */; };
+		6EDD0E6C2D17C7F90085BD3C /* ar-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0CB52D17C7F90085BD3C /* ar-tv-chart.132c7060.html */; };
+		6EDD0E712D17C7F90085BD3C /* en-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB12D17C7F90085BD3C /* en-tv-chart.e2a841ff.html */; };
+		6EDD0E7D2D17C7F90085BD3C /* ms_MY-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC62D17C7F90085BD3C /* ms_MY-tv-chart.132c7060.html */; };
+		6EDD0E832D17C7F90085BD3C /* zh_TW-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DE02D17C7F90085BD3C /* zh_TW-tv-chart.e2a841ff.html */; };
+		6EDD0E842D17C7F90085BD3C /* charting_library.standalone.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA42D17C7F90085BD3C /* charting_library.standalone.js */; };
+		6EDD0E8C2D17C7F90085BD3C /* da_DK-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DAA2D17C7F90085BD3C /* da_DK-tv-chart.e2a841ff.html */; };
+		6EDD0E942D17C7F90085BD3C /* it-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC12D17C7F90085BD3C /* it-tv-chart.e2a841ff.html */; };
+		6EDD0E992D17C7F90085BD3C /* es-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB32D17C7F90085BD3C /* es-tv-chart.e2a841ff.html */; };
+		6EDD0EA42D17C7F90085BD3C /* es-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB22D17C7F90085BD3C /* es-tv-chart.132c7060.html */; };
+		6EDD0EA62D17C7F90085BD3C /* ko-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC42D17C7F90085BD3C /* ko-tv-chart.132c7060.html */; };
+		6EDD0EB22D17C7F90085BD3C /* pl-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCE2D17C7F90085BD3C /* pl-tv-chart.e2a841ff.html */; };
+		6EDD0EB32D17C7F90085BD3C /* ja-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC32D17C7F90085BD3C /* ja-tv-chart.e2a841ff.html */; };
+		6EDD0EB52D17C7F90085BD3C /* tr-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDC2D17C7F90085BD3C /* tr-tv-chart.e2a841ff.html */; };
+		6EDD0EB72D17C7F90085BD3C /* fr-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB92D17C7F90085BD3C /* fr-tv-chart.e2a841ff.html */; };
+		6EDD0EBA2D17C7F90085BD3C /* sk_SK-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD62D17C7F90085BD3C /* sk_SK-tv-chart.e2a841ff.html */; };
+		6EDD0EC12D17C7F90085BD3C /* da_DK-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA92D17C7F90085BD3C /* da_DK-tv-chart.132c7060.html */; };
+		6EDD0EC22D17C7F90085BD3C /* en-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB02D17C7F90085BD3C /* en-tv-chart.132c7060.html */; };
+		6EDD0ECA2D17C7F90085BD3C /* fa-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB72D17C7F90085BD3C /* fa-tv-chart.e2a841ff.html */; };
+		6EDD0ED12D17C7F90085BD3C /* el-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DAE2D17C7F90085BD3C /* el-tv-chart.132c7060.html */; };
+		6EDD0ED62D17C7F90085BD3C /* nl_NL-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DC92D17C7F90085BD3C /* nl_NL-tv-chart.e2a841ff.html */; };
+		6EDD0ED72D17C7F90085BD3C /* ro-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD22D17C7F90085BD3C /* ro-tv-chart.e2a841ff.html */; };
+		6EDD0EE62D17C7F90085BD3C /* sk_SK-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD52D17C7F90085BD3C /* sk_SK-tv-chart.132c7060.html */; };
+		6EDD0EEC2D17C7F90085BD3C /* hu_HU-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBD2D17C7F90085BD3C /* hu_HU-tv-chart.e2a841ff.html */; };
+		6EDD0EEE2D17C7F90085BD3C /* he_IL-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBA2D17C7F90085BD3C /* he_IL-tv-chart.132c7060.html */; };
+		6EDD0EF12D17C7F90085BD3C /* th-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DD92D17C7F90085BD3C /* th-tv-chart.132c7060.html */; };
+		6EDD0EF82D17C7F90085BD3C /* id_ID-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DBE2D17C7F90085BD3C /* id_ID-tv-chart.132c7060.html */; };
+		6EDD0F022D17C7F90085BD3C /* charting_library.cjs.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DA12D17C7F90085BD3C /* charting_library.cjs.js */; };
+		6EDD0F032D17C7F90085BD3C /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCC2D17C7F90085BD3C /* package.json */; };
+		6EDD0F042D17C7F90085BD3C /* et_EE-tv-chart.e2a841ff.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB52D17C7F90085BD3C /* et_EE-tv-chart.e2a841ff.html */; };
+		6EDD0F062D17C7F90085BD3C /* charting_library.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0D9F2D17C7F90085BD3C /* charting_library.js */; };
+		6EDD0F072D17C7F90085BD3C /* pl-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DCD2D17C7F90085BD3C /* pl-tv-chart.132c7060.html */; };
+		6EDD0F082D17C7F90085BD3C /* fr-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DB82D17C7F90085BD3C /* fr-tv-chart.132c7060.html */; };
+		6EDD0F092D17C7F90085BD3C /* tr-tv-chart.132c7060.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0DDB2D17C7F90085BD3C /* tr-tv-chart.132c7060.html */; };
+		6EDD0F0D2D17DCDF0085BD3C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0F0C2D17DCD70085BD3C /* index.html */; };
+		6EDD0F0F2D17E6B70085BD3C /* show_chart.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0F0E2D17E6AD0085BD3C /* show_chart.js */; };
+		6EDD0F1C2D1928210085BD3C /* streaming.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0F1B2D19281D0085BD3C /* streaming.js */; };
+		6EDD0F1E2D192F1C0085BD3C /* datafeed.js in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD0F1D2D192F190085BD3C /* datafeed.js */; };
 		7699B88040F8A987B510C191 /* libPods-ChartingLibraryExample-ChartingLibraryExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ChartingLibraryExample-ChartingLibraryExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -41,10 +110,95 @@
 		5709B34CF0A7D63546082F79 /* Pods-ChartingLibraryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartingLibraryExample.release.xcconfig"; path = "Target Support Files/Pods-ChartingLibraryExample/Pods-ChartingLibraryExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ChartingLibraryExample-ChartingLibraryExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartingLibraryExample-ChartingLibraryExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ChartingLibraryExample-ChartingLibraryExampleTests/Pods-ChartingLibraryExample-ChartingLibraryExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ChartingLibraryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChartingLibraryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDD0CB52D17C7F90085BD3C /* ar-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ar-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0CB62D17C7F90085BD3C /* ar-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ar-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0D9F2D17C7F90085BD3C /* charting_library.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = charting_library.js; sourceTree = "<group>"; };
+		6EDD0DA02D17C7F90085BD3C /* charting_library.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = charting_library.ts; sourceTree = "<group>"; };
+		6EDD0DA12D17C7F90085BD3C /* charting_library.cjs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = charting_library.cjs.js; sourceTree = "<group>"; };
+		6EDD0DA22D17C7F90085BD3C /* charting_library.d.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = charting_library.d.ts; sourceTree = "<group>"; };
+		6EDD0DA32D17C7F90085BD3C /* charting_library.esm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = charting_library.esm.js; sourceTree = "<group>"; };
+		6EDD0DA42D17C7F90085BD3C /* charting_library.standalone.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = charting_library.standalone.js; sourceTree = "<group>"; };
+		6EDD0DA52D17C7F90085BD3C /* cs-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "cs-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DA62D17C7F90085BD3C /* cs-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "cs-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DA92D17C7F90085BD3C /* da_DK-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "da_DK-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DAA2D17C7F90085BD3C /* da_DK-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "da_DK-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DAB2D17C7F90085BD3C /* datafeed-api.d.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "datafeed-api.d.ts"; sourceTree = "<group>"; };
+		6EDD0DAC2D17C7F90085BD3C /* de-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "de-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DAD2D17C7F90085BD3C /* de-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "de-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DAE2D17C7F90085BD3C /* el-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "el-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DAF2D17C7F90085BD3C /* el-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "el-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DB02D17C7F90085BD3C /* en-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "en-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DB12D17C7F90085BD3C /* en-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "en-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DB22D17C7F90085BD3C /* es-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "es-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DB32D17C7F90085BD3C /* es-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "es-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DB42D17C7F90085BD3C /* et_EE-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "et_EE-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DB52D17C7F90085BD3C /* et_EE-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "et_EE-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DB62D17C7F90085BD3C /* fa-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "fa-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DB72D17C7F90085BD3C /* fa-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "fa-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DB82D17C7F90085BD3C /* fr-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "fr-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DB92D17C7F90085BD3C /* fr-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "fr-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DBA2D17C7F90085BD3C /* he_IL-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "he_IL-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DBB2D17C7F90085BD3C /* he_IL-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "he_IL-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DBC2D17C7F90085BD3C /* hu_HU-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "hu_HU-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DBD2D17C7F90085BD3C /* hu_HU-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "hu_HU-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DBE2D17C7F90085BD3C /* id_ID-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "id_ID-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DBF2D17C7F90085BD3C /* id_ID-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "id_ID-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DC02D17C7F90085BD3C /* it-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "it-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DC12D17C7F90085BD3C /* it-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "it-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DC22D17C7F90085BD3C /* ja-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ja-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DC32D17C7F90085BD3C /* ja-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ja-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DC42D17C7F90085BD3C /* ko-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ko-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DC52D17C7F90085BD3C /* ko-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ko-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DC62D17C7F90085BD3C /* ms_MY-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ms_MY-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DC72D17C7F90085BD3C /* ms_MY-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ms_MY-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DC82D17C7F90085BD3C /* nl_NL-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "nl_NL-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DC92D17C7F90085BD3C /* nl_NL-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "nl_NL-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DCA2D17C7F90085BD3C /* no-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "no-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DCB2D17C7F90085BD3C /* no-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "no-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DCC2D17C7F90085BD3C /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		6EDD0DCD2D17C7F90085BD3C /* pl-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "pl-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DCE2D17C7F90085BD3C /* pl-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "pl-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DCF2D17C7F90085BD3C /* pt-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "pt-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DD02D17C7F90085BD3C /* pt-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "pt-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DD12D17C7F90085BD3C /* ro-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ro-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DD22D17C7F90085BD3C /* ro-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ro-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DD32D17C7F90085BD3C /* ru-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ru-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DD42D17C7F90085BD3C /* ru-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ru-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DD52D17C7F90085BD3C /* sk_SK-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "sk_SK-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DD62D17C7F90085BD3C /* sk_SK-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "sk_SK-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DD72D17C7F90085BD3C /* sv-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "sv-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DD82D17C7F90085BD3C /* sv-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "sv-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DD92D17C7F90085BD3C /* th-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "th-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DDA2D17C7F90085BD3C /* th-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "th-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DDB2D17C7F90085BD3C /* tr-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "tr-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DDC2D17C7F90085BD3C /* tr-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "tr-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DDD2D17C7F90085BD3C /* vi-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "vi-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DDE2D17C7F90085BD3C /* vi-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "vi-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DDF2D17C7F90085BD3C /* zh_TW-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "zh_TW-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DE02D17C7F90085BD3C /* zh_TW-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "zh_TW-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0DE12D17C7F90085BD3C /* zh-tv-chart.132c7060.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "zh-tv-chart.132c7060.html"; sourceTree = "<group>"; };
+		6EDD0DE22D17C7F90085BD3C /* zh-tv-chart.e2a841ff.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "zh-tv-chart.e2a841ff.html"; sourceTree = "<group>"; };
+		6EDD0F0C2D17DCD70085BD3C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		6EDD0F0E2D17E6AD0085BD3C /* show_chart.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = show_chart.js; sourceTree = "<group>"; };
+		6EDD0F1B2D19281D0085BD3C /* streaming.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = streaming.js; sourceTree = "<group>"; };
+		6EDD0F1D2D192F190085BD3C /* datafeed.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = datafeed.js; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChartingLibraryExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ChartingLibraryExample-ChartingLibraryExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartingLibraryExample-ChartingLibraryExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ChartingLibraryExample-ChartingLibraryExampleTests/Pods-ChartingLibraryExample-ChartingLibraryExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6EDD0D9E2D17C7F90085BD3C /* bundles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bundles;
+			sourceTree = "<group>";
+		};
+		6EDD0DA82D17C7F90085BD3C /* customStyles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = customStyles;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		00E356EB1AD99517003FC87E /* Frameworks */ = {
@@ -141,6 +295,80 @@
 		89BFCBAE2992964600F6467B /* charting_library */ = {
 			isa = PBXGroup;
 			children = (
+				6EDD0F1D2D192F190085BD3C /* datafeed.js */,
+				6EDD0F1B2D19281D0085BD3C /* streaming.js */,
+				6EDD0F0E2D17E6AD0085BD3C /* show_chart.js */,
+				6EDD0F0C2D17DCD70085BD3C /* index.html */,
+				6EDD0CB52D17C7F90085BD3C /* ar-tv-chart.132c7060.html */,
+				6EDD0CB62D17C7F90085BD3C /* ar-tv-chart.e2a841ff.html */,
+				6EDD0D9E2D17C7F90085BD3C /* bundles */,
+				6EDD0D9F2D17C7F90085BD3C /* charting_library.js */,
+				6EDD0DA02D17C7F90085BD3C /* charting_library.ts */,
+				6EDD0DA12D17C7F90085BD3C /* charting_library.cjs.js */,
+				6EDD0DA22D17C7F90085BD3C /* charting_library.d.ts */,
+				6EDD0DA32D17C7F90085BD3C /* charting_library.esm.js */,
+				6EDD0DA42D17C7F90085BD3C /* charting_library.standalone.js */,
+				6EDD0DA52D17C7F90085BD3C /* cs-tv-chart.132c7060.html */,
+				6EDD0DA62D17C7F90085BD3C /* cs-tv-chart.e2a841ff.html */,
+				6EDD0DA82D17C7F90085BD3C /* customStyles */,
+				6EDD0DA92D17C7F90085BD3C /* da_DK-tv-chart.132c7060.html */,
+				6EDD0DAA2D17C7F90085BD3C /* da_DK-tv-chart.e2a841ff.html */,
+				6EDD0DAB2D17C7F90085BD3C /* datafeed-api.d.ts */,
+				6EDD0DAC2D17C7F90085BD3C /* de-tv-chart.132c7060.html */,
+				6EDD0DAD2D17C7F90085BD3C /* de-tv-chart.e2a841ff.html */,
+				6EDD0DAE2D17C7F90085BD3C /* el-tv-chart.132c7060.html */,
+				6EDD0DAF2D17C7F90085BD3C /* el-tv-chart.e2a841ff.html */,
+				6EDD0DB02D17C7F90085BD3C /* en-tv-chart.132c7060.html */,
+				6EDD0DB12D17C7F90085BD3C /* en-tv-chart.e2a841ff.html */,
+				6EDD0DB22D17C7F90085BD3C /* es-tv-chart.132c7060.html */,
+				6EDD0DB32D17C7F90085BD3C /* es-tv-chart.e2a841ff.html */,
+				6EDD0DB42D17C7F90085BD3C /* et_EE-tv-chart.132c7060.html */,
+				6EDD0DB52D17C7F90085BD3C /* et_EE-tv-chart.e2a841ff.html */,
+				6EDD0DB62D17C7F90085BD3C /* fa-tv-chart.132c7060.html */,
+				6EDD0DB72D17C7F90085BD3C /* fa-tv-chart.e2a841ff.html */,
+				6EDD0DB82D17C7F90085BD3C /* fr-tv-chart.132c7060.html */,
+				6EDD0DB92D17C7F90085BD3C /* fr-tv-chart.e2a841ff.html */,
+				6EDD0DBA2D17C7F90085BD3C /* he_IL-tv-chart.132c7060.html */,
+				6EDD0DBB2D17C7F90085BD3C /* he_IL-tv-chart.e2a841ff.html */,
+				6EDD0DBC2D17C7F90085BD3C /* hu_HU-tv-chart.132c7060.html */,
+				6EDD0DBD2D17C7F90085BD3C /* hu_HU-tv-chart.e2a841ff.html */,
+				6EDD0DBE2D17C7F90085BD3C /* id_ID-tv-chart.132c7060.html */,
+				6EDD0DBF2D17C7F90085BD3C /* id_ID-tv-chart.e2a841ff.html */,
+				6EDD0DC02D17C7F90085BD3C /* it-tv-chart.132c7060.html */,
+				6EDD0DC12D17C7F90085BD3C /* it-tv-chart.e2a841ff.html */,
+				6EDD0DC22D17C7F90085BD3C /* ja-tv-chart.132c7060.html */,
+				6EDD0DC32D17C7F90085BD3C /* ja-tv-chart.e2a841ff.html */,
+				6EDD0DC42D17C7F90085BD3C /* ko-tv-chart.132c7060.html */,
+				6EDD0DC52D17C7F90085BD3C /* ko-tv-chart.e2a841ff.html */,
+				6EDD0DC62D17C7F90085BD3C /* ms_MY-tv-chart.132c7060.html */,
+				6EDD0DC72D17C7F90085BD3C /* ms_MY-tv-chart.e2a841ff.html */,
+				6EDD0DC82D17C7F90085BD3C /* nl_NL-tv-chart.132c7060.html */,
+				6EDD0DC92D17C7F90085BD3C /* nl_NL-tv-chart.e2a841ff.html */,
+				6EDD0DCA2D17C7F90085BD3C /* no-tv-chart.132c7060.html */,
+				6EDD0DCB2D17C7F90085BD3C /* no-tv-chart.e2a841ff.html */,
+				6EDD0DCC2D17C7F90085BD3C /* package.json */,
+				6EDD0DCD2D17C7F90085BD3C /* pl-tv-chart.132c7060.html */,
+				6EDD0DCE2D17C7F90085BD3C /* pl-tv-chart.e2a841ff.html */,
+				6EDD0DCF2D17C7F90085BD3C /* pt-tv-chart.132c7060.html */,
+				6EDD0DD02D17C7F90085BD3C /* pt-tv-chart.e2a841ff.html */,
+				6EDD0DD12D17C7F90085BD3C /* ro-tv-chart.132c7060.html */,
+				6EDD0DD22D17C7F90085BD3C /* ro-tv-chart.e2a841ff.html */,
+				6EDD0DD32D17C7F90085BD3C /* ru-tv-chart.132c7060.html */,
+				6EDD0DD42D17C7F90085BD3C /* ru-tv-chart.e2a841ff.html */,
+				6EDD0DD52D17C7F90085BD3C /* sk_SK-tv-chart.132c7060.html */,
+				6EDD0DD62D17C7F90085BD3C /* sk_SK-tv-chart.e2a841ff.html */,
+				6EDD0DD72D17C7F90085BD3C /* sv-tv-chart.132c7060.html */,
+				6EDD0DD82D17C7F90085BD3C /* sv-tv-chart.e2a841ff.html */,
+				6EDD0DD92D17C7F90085BD3C /* th-tv-chart.132c7060.html */,
+				6EDD0DDA2D17C7F90085BD3C /* th-tv-chart.e2a841ff.html */,
+				6EDD0DDB2D17C7F90085BD3C /* tr-tv-chart.132c7060.html */,
+				6EDD0DDC2D17C7F90085BD3C /* tr-tv-chart.e2a841ff.html */,
+				6EDD0DDD2D17C7F90085BD3C /* vi-tv-chart.132c7060.html */,
+				6EDD0DDE2D17C7F90085BD3C /* vi-tv-chart.e2a841ff.html */,
+				6EDD0DDF2D17C7F90085BD3C /* zh_TW-tv-chart.132c7060.html */,
+				6EDD0DE02D17C7F90085BD3C /* zh_TW-tv-chart.e2a841ff.html */,
+				6EDD0DE12D17C7F90085BD3C /* zh-tv-chart.132c7060.html */,
+				6EDD0DE22D17C7F90085BD3C /* zh-tv-chart.e2a841ff.html */,
 			);
 			path = charting_library;
 			sourceTree = "<group>";
@@ -197,6 +425,10 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				6EDD0D9E2D17C7F90085BD3C /* bundles */,
+				6EDD0DA82D17C7F90085BD3C /* customStyles */,
+			);
 			name = ChartingLibraryExample;
 			productName = ChartingLibraryExample;
 			productReference = 13B07F961A680F5B00A75B9A /* ChartingLibraryExample.app */;
@@ -208,6 +440,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = NO;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -220,7 +453,6 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ChartingLibraryExample" */;
-			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -228,6 +460,7 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +483,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDD0DE32D17C7F90085BD3C /* cs-tv-chart.132c7060.html in Resources */,
+				6EDD0DE92D17C7F90085BD3C /* ro-tv-chart.132c7060.html in Resources */,
+				6EDD0DF02D17C7F90085BD3C /* no-tv-chart.132c7060.html in Resources */,
+				6EDD0DF22D17C7F90085BD3C /* no-tv-chart.e2a841ff.html in Resources */,
+				6EDD0DF42D17C7F90085BD3C /* zh-tv-chart.132c7060.html in Resources */,
+				6EDD0DF82D17C7F90085BD3C /* de-tv-chart.e2a841ff.html in Resources */,
+				6EDD0DFA2D17C7F90085BD3C /* ar-tv-chart.e2a841ff.html in Resources */,
+				6EDD0DFB2D17C7F90085BD3C /* charting_library.esm.js in Resources */,
+				6EDD0E112D17C7F90085BD3C /* he_IL-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E1E2D17C7F90085BD3C /* zh-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E202D17C7F90085BD3C /* ru-tv-chart.132c7060.html in Resources */,
+				6EDD0E212D17C7F90085BD3C /* vi-tv-chart.132c7060.html in Resources */,
+				6EDD0E222D17C7F90085BD3C /* el-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E292D17C7F90085BD3C /* ms_MY-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E2A2D17C7F90085BD3C /* ja-tv-chart.132c7060.html in Resources */,
+				6EDD0E2E2D17C7F90085BD3C /* id_ID-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E302D17C7F90085BD3C /* et_EE-tv-chart.132c7060.html in Resources */,
+				6EDD0E322D17C7F90085BD3C /* fa-tv-chart.132c7060.html in Resources */,
+				6EDD0E352D17C7F90085BD3C /* sv-tv-chart.132c7060.html in Resources */,
+				6EDD0E382D17C7F90085BD3C /* pt-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E3D2D17C7F90085BD3C /* pt-tv-chart.132c7060.html in Resources */,
+				6EDD0E4D2D17C7F90085BD3C /* cs-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E512D17C7F90085BD3C /* th-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E522D17C7F90085BD3C /* ru-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E582D17C7F90085BD3C /* nl_NL-tv-chart.132c7060.html in Resources */,
+				6EDD0E5B2D17C7F90085BD3C /* sv-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E5C2D17C7F90085BD3C /* hu_HU-tv-chart.132c7060.html in Resources */,
+				6EDD0E5F2D17C7F90085BD3C /* vi-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E602D17C7F90085BD3C /* ko-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E622D17C7F90085BD3C /* it-tv-chart.132c7060.html in Resources */,
+				6EDD0E692D17C7F90085BD3C /* zh_TW-tv-chart.132c7060.html in Resources */,
+				6EDD0E6A2D17C7F90085BD3C /* de-tv-chart.132c7060.html in Resources */,
+				6EDD0E6C2D17C7F90085BD3C /* ar-tv-chart.132c7060.html in Resources */,
+				6EDD0E712D17C7F90085BD3C /* en-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E7D2D17C7F90085BD3C /* ms_MY-tv-chart.132c7060.html in Resources */,
+				6EDD0E832D17C7F90085BD3C /* zh_TW-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E842D17C7F90085BD3C /* charting_library.standalone.js in Resources */,
+				6EDD0E8C2D17C7F90085BD3C /* da_DK-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E942D17C7F90085BD3C /* it-tv-chart.e2a841ff.html in Resources */,
+				6EDD0E992D17C7F90085BD3C /* es-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EA42D17C7F90085BD3C /* es-tv-chart.132c7060.html in Resources */,
+				6EDD0EA62D17C7F90085BD3C /* ko-tv-chart.132c7060.html in Resources */,
+				6EDD0EB22D17C7F90085BD3C /* pl-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EB32D17C7F90085BD3C /* ja-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EB52D17C7F90085BD3C /* tr-tv-chart.e2a841ff.html in Resources */,
+				6EDD0F1E2D192F1C0085BD3C /* datafeed.js in Resources */,
+				6EDD0EB72D17C7F90085BD3C /* fr-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EBA2D17C7F90085BD3C /* sk_SK-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EC12D17C7F90085BD3C /* da_DK-tv-chart.132c7060.html in Resources */,
+				6EDD0EC22D17C7F90085BD3C /* en-tv-chart.132c7060.html in Resources */,
+				6EDD0ECA2D17C7F90085BD3C /* fa-tv-chart.e2a841ff.html in Resources */,
+				6EDD0F0F2D17E6B70085BD3C /* show_chart.js in Resources */,
+				6EDD0ED12D17C7F90085BD3C /* el-tv-chart.132c7060.html in Resources */,
+				6EDD0F1C2D1928210085BD3C /* streaming.js in Resources */,
+				6EDD0ED62D17C7F90085BD3C /* nl_NL-tv-chart.e2a841ff.html in Resources */,
+				6EDD0ED72D17C7F90085BD3C /* ro-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EE62D17C7F90085BD3C /* sk_SK-tv-chart.132c7060.html in Resources */,
+				6EDD0EEC2D17C7F90085BD3C /* hu_HU-tv-chart.e2a841ff.html in Resources */,
+				6EDD0EEE2D17C7F90085BD3C /* he_IL-tv-chart.132c7060.html in Resources */,
+				6EDD0EF12D17C7F90085BD3C /* th-tv-chart.132c7060.html in Resources */,
+				6EDD0EF82D17C7F90085BD3C /* id_ID-tv-chart.132c7060.html in Resources */,
+				6EDD0F0D2D17DCDF0085BD3C /* index.html in Resources */,
+				6EDD0F022D17C7F90085BD3C /* charting_library.cjs.js in Resources */,
+				6EDD0F032D17C7F90085BD3C /* package.json in Resources */,
+				6EDD0F042D17C7F90085BD3C /* et_EE-tv-chart.e2a841ff.html in Resources */,
+				6EDD0F062D17C7F90085BD3C /* charting_library.js in Resources */,
+				6EDD0F072D17C7F90085BD3C /* pl-tv-chart.132c7060.html in Resources */,
+				6EDD0F082D17C7F90085BD3C /* fr-tv-chart.132c7060.html in Resources */,
+				6EDD0F092D17C7F90085BD3C /* tr-tv-chart.132c7060.html in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -494,6 +796,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP4DP5FH2S;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ChartingLibraryExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,7 +809,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xwjiang.reactjs.native.example.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = ChartingLibraryExample;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -521,6 +824,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP4DP5FH2S;
 				INFOPLIST_FILE = ChartingLibraryExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,7 +836,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.xwjiang.reactjs.native.example.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = ChartingLibraryExample;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

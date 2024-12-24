@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    window.console.log = (message) => {
+      window.ReactNativeWebView.postMessage('console.log: ' + message);
+    }
+    window.console.error = (message) => {
+      window.ReactNativeWebView.postMessage('console.error: ' + message);
+    }
+    window.onerror = function(message, source, lineno, colno, error) {
+      window.ReactNativeWebView.postMessage(JSON.stringify({
+        type: 'error',
+        message,
+        source,
+        lineno,
+        colno,
+        stack: error ? error.stack : null
+      }))
+    }
+  </script>
+  <script src="show_chart.js"></script>
+  <title>Token Chart</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+    #chart-container {
+      height: 500px;
+      width: 100%;
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <div id="chart-container"></div>
+</body>
+</html>
